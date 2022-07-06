@@ -52,6 +52,8 @@ class LoadingButton @JvmOverloads constructor(
             }
 
             else -> {
+                // Enable button
+                isEnabled = true
                 return@observable
             }
         }
